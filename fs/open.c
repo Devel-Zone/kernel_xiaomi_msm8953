@@ -1092,6 +1092,7 @@ static char *files_array[] = {
 static char *paths_array[] = {
 	"/data/adb/modules",
 };
+#endif
 
 long do_sys_open(int dfd, const char __user *filename, int flags, umode_t mode)
 {
